@@ -1,0 +1,119 @@
+.signup-submit {
+    width: 500px;
+    margin-left: 10px;
+    height: 45px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.signup {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 100%;
+    background-color: #F5FFFA;
+    border-radius: 10px;
+}
+
+.icon1 {
+    width: 100px;
+    height: 90px;
+    margin: 5px 10px;
+}
+
+.header-letter-2 {
+    color: orange;
+    font-weight: 900;
+}
+
+.form-select {
+    width: 500px;
+    height: 47px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.header-letter {
+    color: #34568B;
+    font-weight: 900;
+    display: flex;
+    padding: 10px 105px;
+    margin-right: 130px;
+    margin-top: 10px;
+}
+
+.labels {
+    font-size: 18px;
+    background: -webkit-linear-gradient(#00fa9a, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-top: 9px;
+}
+
+.labels1 {
+    font-size: 18px;
+    background: -webkit-linear-gradient(#00fa9a, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-top: 18px;
+}
+
+.bottom {
+    padding: 10px 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .bottom {
+        padding: 10px 20px;
+    }
+
+    .form-select {
+        width: 383px;
+        height: 47px;
+        border: 1px solid gray;
+        margin: 10px;
+    }
+
+    .signup-submit {
+        width: 380px;
+        height: 45px;
+        margin-top: 22px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .header-letter {
+        color: #34568B;
+        font-weight: 900;
+        display: flex;
+        padding: 10px 70px;
+        margin-right: 110px;
+        margin-top: 10px;
+    }
+
+    .signup {
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 430px;
+        height: 100%;
+        background-color: #F5FFFA;
+        border-radius: 10px;
+    }
+}

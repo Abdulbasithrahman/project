@@ -1,0 +1,53 @@
+input {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: 1px solid gray;
+}
+
+.label3 {
+    padding-left: 8px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    padding: 10px;
+}
+
+.label {
+    font-size: 18px;
+    background: -webkit-linear-gradient(#00fa9a, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.check-input {
+    cursor: pointer;
+}
+
+.check-radio {
+    padding-left: 12px;
+}
+
+span {
+    color: red;
+    font-size: 13px;
+    padding: 3px;
+    display: none;
+}
+
+input:invalid[focus="true"]~span {
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        width: 403px;
+        padding: 10px;
+    }
+}
