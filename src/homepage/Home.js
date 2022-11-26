@@ -11,8 +11,6 @@ import './Home.css'
 
 const Home = () => {
   
-
-  
   //initialization
   const initialHistory = {
     id: null,
